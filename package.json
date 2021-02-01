@@ -1,0 +1,17 @@
+{
+  "name": "electron_projects",
+  "version": "1.0.0",
+  "description": "its desktop application project",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "prostart": "nodemon --exec electron ."
+  },
+  "author": "pawan kushwah",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^11.2.1",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7"
+  }
+}
